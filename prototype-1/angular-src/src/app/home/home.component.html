@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="col-6 left" id="test"></div>
+  <div class="col-6 right">
+    <div class="desktop">
+      <div class="desktop-content">
+        <div class="content-message" [innerHTML]="message"></div>
+        <video autoplay="true" id="videoElement">
+
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bottom">
+  <div class="container">
+    <h1>Welcome to Ruka</h1>
+    <form>
+      <input type="checkbox" name="Camera" value="camera" id="checkCamera" checked="checked"> Video Camera
+      <br/><br/>
+      LED Light Variant <br/>
+      <input type="radio" name="variant" value="VariantOne" id="checkVariantOne" checked> Variant 1
+      <input type="radio" name="variant" value="VariantTwo" id="checkVariantTwo"> Variant 2
+      <input type="radio" name="variant" value="VariantThree" id="checkVariantThree"> Variant 3
+    </form>
+    <br/>
+    Gest - {{storedGest.length}}
+
+    <!--
+
+    ## Gesture image ##
+    https://www.freepik.com/free-vector/illustration-of-hands-gesture-set-in-thin-line_2802630.htm#term=gestures&page=1&position=38
+
+    -->
+
+    <div class="row hand-container">
+      <div class="col-2" *ngFor="let Gest of handGest">
+        <img src="{{Gest.path}}" class="hand-gest" id="gest-{{Gest.title}}" (click)="addGest(Gest)">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="turnOff">
+  <div class="turnOff-content">
+    Turning on Ruka...
+  </div>
+</div>
+
+
+<!--
+
+  Five finger to start & end
+
+  0 1, Lock all doors
+  0 2, Turn on tv
+  0 3
+  0 4
+  1 0, Turn off all lights
+  1 2, Turn on all lights
+  1 3
+  1 4
+  2 0, Make an alarm for tomorrow at 6
+  2 1, Make an alarm for tomorrow at 7
+  2 3, Make an alarm for tomorrow at 8
+  2 4, Make an alarm for tomorrow at 9
+  3 0, Show the weather
+  3 1, Show the maps
+  3 2, Show the notification
+  3 4
+  4 0, Show the news
+  4 1, Show entertainment news
+  4 2, Show technology news
+  4 3
+
+-->

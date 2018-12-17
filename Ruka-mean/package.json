@@ -1,0 +1,32 @@
+{
+  "name": "ruka-mean",
+  "version": "1.0.0",
+  "description": "Ruka, a simple hand recognition system for your smart home.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/keynekassapa13/Ruka.git"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "bootstrap": "^4.1.3",
+    "cors": "*",
+    "express": "*",
+    "johnny-five": "^1.0.0",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Keyne Oei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/keynekassapa13/Ruka/issues"
+  },
+  "homepage": "https://gitlab.com/keynekassapa13/Ruka#README"
+}
