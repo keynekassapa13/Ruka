@@ -20,11 +20,11 @@ After the start there will be 2 hand gestures you could do.
 
 This project was generated with [Tenserflow](https://js.tensorflow.org/)
 
-<br/>Bootstrap   >>> https://getbootstrap.com/
-<br/>Jquery      >>> http://api.jquery.com/
-<br/>Angular     >>> https://angular.io/
-<br/>Jquery Countdown   >>> http://hilios.github.io/jQuery.countdown/
-<br/>Johhny five  >>> http://blog.ricardofilipe.com/post/getting-started-arduino-johhny-five
+<br/>Bootstrap   --- https://getbootstrap.com/
+<br/>Jquery      --- http://api.jquery.com/
+<br/>Angular     --- https://angular.io/
+<br/>Jquery Countdown   --- http://hilios.github.io/jQuery.countdown/
+<br/>Johhny five  --- http://blog.ricardofilipe.com/post/getting-started-arduino-johhny-five
 
 ### Video Tutorial
 
@@ -40,8 +40,8 @@ https://github.com/tensorflow/tfjs-examples
 
 ### External API
 
-Weather     >>> openweathermap.org
-<br/>News        >>> https://newsapi.org/
+Weather          --- openweathermap.org
+<br/>News        --- https://newsapi.org/
 
 ## How to start
 
